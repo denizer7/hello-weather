@@ -1,0 +1,62 @@
+/* -----header----- */
+.header {
+}
+
+.header__conteiner {
+	height: 100px;
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(94, 123, 201, 1) 100%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.header__logo {
+	font-weight: 700;
+	font-size: 40px;
+	color: rgb(212, 235, 9);
+}
+
+.header__input {
+	
+}
+
+.input {
+	position: relative;
+}
+
+.input__city {
+	padding: 10px;
+	width: 250px;
+	height: 35px;
+	outline: none;
+	border-radius: 5px;
+	
+}
+
+.input__city:focus {
+	border: 2px solid rgb(212, 235, 9);
+}
+
+.input__icon {
+	position: absolute;
+	top: 6px;
+	right: 70px;
+	color:rgb(212, 235, 9);
+}
+
+.input__button {
+	width: 60px;
+	height: 35px;
+	background-color: azure;
+	border-radius: 5px;
+	color: black;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+.input__button:active {
+	background-color: rgb(175, 212, 147);
+	color: blue;
+
+}
