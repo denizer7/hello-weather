@@ -17,15 +17,11 @@
 	color: rgb(212, 235, 9);
 }
 
-.header__input {
-	
-}
-
-.input {
+.form {
 	position: relative;
 }
 
-.input__city {
+.form__input {
 	padding: 10px;
 	width: 250px;
 	height: 35px;
@@ -34,18 +30,18 @@
 	
 }
 
-.input__city:focus {
+.form__input:focus {
 	border: 2px solid rgb(212, 235, 9);
 }
 
-.input__icon {
+.form__icon {
 	position: absolute;
 	top: 6px;
 	right: 70px;
 	color:rgb(212, 235, 9);
 }
 
-.input__button {
+.form__button {
 	width: 60px;
 	height: 35px;
 	background-color: azure;
@@ -55,8 +51,110 @@
 	font-size: 16px;
 }
 
-.input__button:active {
+.form__button:active {
 	background-color: rgb(175, 212, 147);
-	color: blue;
+	color: rgb(73, 99, 170);
+}
 
+/* -----main----- */
+.main {
+}
+
+.main__conteiner {
+	border-top: 0.5px solid azure;
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgb(107, 132, 199) 100%);
+	height: 500px;
+	font-size: 32px;
+	color:rgb(236, 236, 236);
+	display: flex;
+	justify-content: space-around;
+}
+
+.date {
+	margin: 30px 0 0 0;
+}
+.date__mounth {
+	margin: 0 0 5px 0;
+}
+.date__day {
+	font-size: 28px;
+	margin: 0 0 25px 0 ;
+}
+
+.temp {
+	margin: 30px 0 0 0;
+}
+
+.temp__temp-icon {
+	display: flex;
+	margin: 0 0 40px 0;
+}
+
+.temp__temperature {
+	font-size: 160px;
+}
+
+.temp__temperature::after {
+	content: "\2103";
+	font-size: 48px;
+	vertical-align: top;
+}
+
+.temp__condition {
+	text-align: center;
+}
+
+.main__icon {
+	margin: 35px 0px 0 -45px;
+}
+
+.main__img {
+	max-width: 100%;
+	height:auto;
+}
+
+.place {
+	margin: 30px 0 0 0;
+}
+
+.place__city {
+	margin: 0 0 5px 0;
+	font-size: 40px;
+}
+.place__country {
+	
+}
+
+.place__weather-properties {
+}
+.properties {
+	margin: 25px 0 0 0;
+	font-size: 24px;
+}
+
+.properties li{
+	margin: 10px 0;
+}
+
+.properties li:last-child {
+	margin: 0;
+}
+
+.properties__feels-like {
+}
+.properties__temp {
+}
+.properties__wind {
+}
+.properties__wind-direction {
+}
+.properties__wind-speed {
+}
+.properties__humidity {
+}
+.properties__humidity-value {
+}
+.properties__pressure {
+}
+.properties__pressure-value {
 }
